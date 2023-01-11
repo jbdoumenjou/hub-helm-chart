@@ -28,6 +28,7 @@ rules:
       - create
       - update
       - delete
+      - get
   - apiGroups:
       - traefik.containo.us
     resources:
