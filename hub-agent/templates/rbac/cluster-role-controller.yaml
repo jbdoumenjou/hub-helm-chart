@@ -22,6 +22,11 @@ rules:
       - accesscontrolpolicies
       - edgeingresses
       - catalogs
+      - apis
+      - apiaccesses
+      - apicollections
+      - apigateways
+      - apiportals
     verbs:
       - list
       - watch
