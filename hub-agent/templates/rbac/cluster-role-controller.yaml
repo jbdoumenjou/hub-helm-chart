@@ -21,7 +21,6 @@ rules:
     resources:
       - accesscontrolpolicies
       - edgeingresses
-      - catalogs
       - apis
       - apiaccesses
       - apicollections

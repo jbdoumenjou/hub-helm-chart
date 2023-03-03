@@ -12,7 +12,6 @@ metadata:
 rules:
   # Access Control RBACs.
   - resources:
-      - catalogs
       - apiportals
     apiGroups:
       - hub.traefik.io
