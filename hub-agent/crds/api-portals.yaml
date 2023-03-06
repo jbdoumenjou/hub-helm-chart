@@ -40,6 +40,8 @@ spec:
           spec:
             description: The desired behavior of this APIPortal.
             properties:
+              apiGateway:
+                type: string
               customDomains:
                 description: CustomDomains are the custom domains under which the
                   portal will be exposed.
@@ -48,10 +50,8 @@ spec:
                 type: array
               description:
                 type: string
-              gateway:
-                type: string
             required:
-            - gateway
+            - apiGateway
             type: object
           status:
             description: The current status of this APIPortal.
